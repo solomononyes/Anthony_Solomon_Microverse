@@ -3,7 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  text-align: center;
+}
 
 section {
   height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+#navbar {
+  position: fixed;
 }
