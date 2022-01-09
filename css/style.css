@@ -6,12 +6,15 @@
 body {
   text-align: center;
 }
+#navbar {
+  text-align: left;
+}
 
 #projects {
   background-color: bisque;
 }
 
-section{
+section {
   height: 100vh;
 }
 #welcome-section {
@@ -26,4 +29,16 @@ section{
 }
 #navbar {
   position: fixed;
+  width: 100vw;
+  background-color: goldenrod;
+  height: 40px;
+  text-align: right;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  display: block;
+  padding-top: 150px;
 }
